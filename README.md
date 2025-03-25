@@ -1,8 +1,11 @@
-# WMH-seg
-A Robust Automated Segmentation Method for White Matter Hyperintensity of Vascular-origin
+# WMH-seg: 
 
-Required environments: pip install -r requirements.txt
+## A Robust Automated Segmentation Method for White Matter Hyperintensity of Vascular-origin
 
-Dependencies:"torch>=1.6.0a","tqdm","dicom2nifti","scikit-image>=0.14","medpy","scipy",
-"batchgenerators>=0.21","numpy","sklearn","SimpleITK","pandas","requests","nibabel",
-'tifffile'
+### Installation
+To get started, it's recommended to create a Python (preferably v3.6) environment using either Conda or venv. This helps to manage dependencies and ensure a consistent runtime environment.
+
+Once environment is active, install the required packages from `requirements.txt` using pip:
+```
+pip install -r requirements.txt
+```
