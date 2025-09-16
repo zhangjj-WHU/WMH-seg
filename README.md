@@ -11,6 +11,25 @@ Once environment is active, install the required packages from `requirements.txt
 ```
 pip install -r requirements.txt
 ```
+### Dataset Preparation
+
+Dataset Preparation: please refer to [nn-UNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md) and [nnFormer](https://github.com/282857341/nnFormer)
+
+Make your data in the following structure:
+
+    DATASET/
+    ├── WMH_raw/
+    │   ├── WMH_raw_data/
+    │   │   ├── Task01_WMH/
+    │   │   │   ├── imagesTr/
+    │   │   │   ├── imagesTs/
+    │   │   │   ├── labelsTr/
+    │   │   │   ├── labelsTs/
+    │   │   │   ├── dataset.json
+
+
+
+
 
 Updating... 
 The dataset will be released via the Zenodo repository:(DOI: 10.5281/zenodo.15221380)
