@@ -27,7 +27,8 @@ Make your data in the following structure:
     │   │   │   ├── labelsTs/
     │   │   │   ├── dataset.json
 
-
+### Trained Models
+Trained models are available at: [Google Drive](https://drive.google.com/file/d/1OjS4nYBSqPFRSmn8MCzCh6gUaa77EvmK/view?usp=sharing)
 
 
 
