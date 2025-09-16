@@ -1,56 +1,85 @@
-monai
-nibabel
-tensorboardX
-rgparse
-batchgenerators
-bertviz
-boto3
-botocore
-click
-cycler
-dataclasses
-decorator
-dicom2nifti
-diffdist
-dnn-printer
-einops
-filelock
-future
-huggingface-hub
-imageio
-importlib-metadata
-matplotlib
-medpy
-networkx
-numpy
-packaging
-pandas
-pillow
-protobuf
-pydicom
-pyparsing
-python-dateutil
-pytz
-pywavelets
-pyyaml
-regex
-s3transfer
-scikit-image
-scikit-learn
-scipy
-sentencepiece
-simpleitk
-threadpoolctl
-tifffile
-timm
-tokenizers
-torch
-torchsummary
-torchvision
-tqdm
-traceback2
-transformers
-typing-extensions
-unittest2
-yacs
-zipp
+name: WMH-seg
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - ca-certificates=2021.5.25=h06a4308_1
+  - certifi=2021.5.30=py36h06a4308_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - ncurses=6.2=he6710b0_1
+  - openssl=1.1.1k=h27cfd23_0
+  - pip=21.1.1=py36h06a4308_0
+  - python=3.6.13=hdb3f193_0
+  - readline=8.1=h27cfd23_0
+  - setuptools=52.0.0=py36h06a4308_0
+  - sqlite=3.35.4=hdfb4753_0
+  - tk=8.6.10=hbc83047_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+  - pip:
+    - argparse
+    - batchgenerators
+    - bertviz
+    - boto3
+    - botocore
+    - click
+    - cycler
+    - dataclasses
+    - decorator
+    - dicom2nifti
+    - diffdist
+    - dnn-printer
+    - einops
+    - filelock
+    - future
+    - huggingface-hub
+    - imageio
+    - importlib-metadata
+    - jmespath
+    - joblib
+    - kiwisolver
+    - linecache2
+    - matplotlib
+    - medpy
+    - networkx
+    - nibabel
+    - numpy=
+    - packaging
+    - pandas
+    - pillow
+    - protobuf
+    - pydicom
+    - pyparsing
+    - python-dateutil
+    - pytz
+    - pywavelets
+    - pyyaml
+    - regex
+    - s3transfer
+    - sacremoses
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - sentencepiece
+    - simpleitk
+    - six
+    - sklearn
+    - tensorboardx
+    - threadpoolctl
+    - tifffile
+    - timm
+    - tokenizers
+    - torch
+    - torchsummary
+    - torchvision
+    - tqdm
+    - traceback2
+    - transformers
+    - typing-extensions
+    - unittest2
+    - yacs
+    - zipp
