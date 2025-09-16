@@ -1,11 +1,11 @@
 from einops import rearrange
 from copy import deepcopy
-from nnformer.utilities.nd_softmax import softmax_helper
+from WMH.utilities.nd_softmax import softmax_helper
 from torch import nn
 import torch
 import numpy as np
-from nnformer.network_architecture.initialization import InitWeights_He
-from nnformer.network_architecture.neural_network import SegmentationNetwork
+from WMH.network_architecture.initialization import InitWeights_He
+from WMH.network_architecture.neural_network import SegmentationNetwork
 import torch.nn.functional
 
 import torch.nn.functional as F
@@ -973,7 +973,7 @@ class SwinTransformer(nn.Module):
             logger (logging.Logger): The logger used to print
                 debugging infomation.
         """
-        checkpoint = torch.load("/media/amax/partion2/chengl/nnFormer/pretrained_ckpt/swin_tiny_patch4_window7_224.pth",
+        checkpoint = torch.load("/media/amax/partion2/chengl/WMH/pretrained_ckpt/swin_tiny_patch4_window7_224.pth",
                                 map_location='cpu')
         state_dict = checkpoint['model']
 
