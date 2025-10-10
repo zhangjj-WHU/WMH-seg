@@ -28,7 +28,7 @@ Make your data in the following structure:
     │   │   │   ├── dataset.json
 
 ### Trained Models
-Trained models are available at: [Google Drive](https://drive.google.com/file/d/1OjS4nYBSqPFRSmn8MCzCh6gUaa77EvmK/view?usp=sharing)
+Trained models are available at: [Google Drive](https://drive.google.com/drive/folders/1kHi8arZ9yRoF2pMbWqmcZJ5J4KY8A-dP?usp=sharing)
 
 ### Acknowledgement
 We sincerely appreciate [nn-UNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md) and [nnFormer](https://github.com/282857341/nnFormer) for their awesome codebases.
