@@ -18,24 +18,24 @@ from typing import Tuple
 
 import numpy as np
 import torch
-from nnformer.training.data_augmentation.data_augmentation_moreDA import get_moreDA_augmentation
-from nnformer.training.loss_functions.deep_supervision import MultipleOutputLoss2
-from nnformer.utilities.to_torch import maybe_to_torch, to_cuda
-from nnformer.network_architecture.generic_UNet import Generic_UNet
-from nnformer.network_architecture.Swin_Unet_l_gelunorm import swintransformer
-from nnformer.network_architecture.swin_transformer_3d import SwinTransformer3D
-from nnformer.network_architecture.vision_transformer import SwinUnet3D
-from nnformer.network_architecture.initialization import InitWeights_He
-from nnformer.network_architecture.neural_network import SegmentationNetwork
-from nnformer.training.data_augmentation.default_data_augmentation import default_2D_augmentation_params, \
+from WMH.training.data_augmentation.data_augmentation_moreDA import get_moreDA_augmentation
+from WMH.training.loss_functions.deep_supervision import MultipleOutputLoss2
+from WMH.utilities.to_torch import maybe_to_torch, to_cuda
+from WMH.network_architecture.generic_UNet import Generic_UNet
+from WMH.network_architecture.Swin_Unet_l_gelunorm import swintransformer
+from WMH.network_architecture.swin_transformer_3d import SwinTransformer3D
+from WMH.network_architecture.vision_transformer import SwinUnet3D
+from WMH.network_architecture.initialization import InitWeights_He
+from WMH.network_architecture.neural_network import SegmentationNetwork
+from WMH.training.data_augmentation.default_data_augmentation import default_2D_augmentation_params, \
     get_patch_size, default_3D_augmentation_params
-from nnformer.training.dataloading.dataset_loading import unpack_dataset
-from nnformer.training.network_training.nnFormerTrainer import nnFormerTrainer
-from nnformer.utilities.nd_softmax import softmax_helper
+from WMH.training.dataloading.dataset_loading import unpack_dataset
+from WMH.training.network_training.nnFormerTrainer import nnFormerTrainer
+from WMH.utilities.nd_softmax import softmax_helper
 from sklearn.model_selection import KFold
 from torch import nn
 from torch.cuda.amp import autocast
-from nnformer.training.learning_rate.poly_lr import poly_lr
+from WMH.training.learning_rate.poly_lr import poly_lr
 from batchgenerators.utilities.file_and_folder_operations import *
 import os
 
